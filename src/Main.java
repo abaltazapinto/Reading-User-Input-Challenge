@@ -11,7 +11,7 @@ public class Main {
         int i = 0;
 
         while (i < 5) {
-            System.out.println(" Enter number " + (i + 1) + ": ");
+            System.out.println(" Enter number #" + (i + 1) + ": ");
             if (scanner.hasNextInt()) {
                 numbers[i] = scanner.nextInt();
                 i++;
